@@ -1,18 +1,27 @@
 {
-  "name": "gif-searcher-promise",
+  "name": "gif.searcher.promise",
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server"
-  },
-  "author": "domin",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
     "http-server": "^0.11.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domin11/15.2-gif-searcher-promise.git"
+  },
+  "author": "domin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domin11/15.2-gif-searcher-promise/issues"
+  },
+  "homepage": "https://github.com/domin11/15.2-gif-searcher-promise#readme"
 }
